@@ -3,6 +3,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class fourSum {
+    // Time Complexity:- O(N*log(N)) + O(N^3)
+    // Space Complexity :- O(1)
     public List<List<Integer>> fourSumUtil(int[] nums, int target){
         List<List<Integer>> storage=new ArrayList<List<Integer>>();
         if(nums==null || nums.length==0)return storage;
