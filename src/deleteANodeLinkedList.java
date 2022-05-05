@@ -7,6 +7,7 @@ public class deleteANodeLinkedList {
      * ListNode(int x) { val = x; }
      * }
      */
+
     // Time Complexity :- O(1)
     // Space Complexity :- O(1)
     public void deleteNode(ListNode node) {
