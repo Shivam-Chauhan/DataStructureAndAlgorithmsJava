@@ -44,9 +44,9 @@ class trieNodeTwo {
     }
 }
 
-// Time Complexity for inserting :- O(Log(N))
-// Time Complexity for counting  :- O(Log(N))
-// Time Complexity for erasing   :- O(Log(N))
+// Time Complexity for inserting :- O(N)
+// Time Complexity for counting  :- O(N)
+// Time Complexity for erasing   :- O(N)
 public class implementATrieTwo {
     private static trieNodeTwo root;
 
