@@ -14,8 +14,8 @@ public class lastStoneWeightTwo {
         return grid[index][target] = Math.min(pick, notPick);
     }
 
-    // Time Complexity :- O(N*Log(N))
-    // Space Complexity :- O(1) + Auxillary Space Of Recursion Stack
+    // Time Complexity :- O(N*N))
+    // Space Complexity :- O(N*N) + Auxillary Space Of Recursion Stack
     // Link:-  https://leetcode.com/problems/last-stone-weight-ii/
     public int lastStoneWeightII(int[] stones) {
         int summation = 0;
