@@ -49,4 +49,3 @@ public class booleanEvaluation {
         return evaluater(0, exp.length() - 1, 1, exp, grid);
     }
 }
-g
